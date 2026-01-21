@@ -1,0 +1,15 @@
+{
+  "inputs": [],
+  "servers": {
+    "PlaneMCP": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "C:\\Users\\rlakhatariya\\source\\repos\\PlaneMCPServer\\Src\\MCPServerPlane\\MCPServerPlane\\MCPServerPlane.csproj"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@BaseUrl = https://api.plane.so/api/v1
+
+### Get Projects
+GET {{BaseUrl}}/workspaces/rushikplane/projects
+x-api-key: plane_api_37871ee1ea68438bb81965f1ec8c33e4
+Accept: application/json
+
+### Get states for a specific project
+GET {{BaseUrl}}/workspaces/rushikplane/projects/42cafa0f-f119-490a-a7f0-a5535a468b7b/states
+x-api-key: plane_api_37871ee1ea68438bb81965f1ec8c33e4
